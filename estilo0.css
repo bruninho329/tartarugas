@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+.logo{
+height: 90px;
+
+}
+#menu {
+  display: flex;
+  /* Coloca os itens lado a lado */
+  justify-content: space-between;
+  /* Espaço entre logo e links */
+  align-items: center;
+  /* Alinha verticalmente */
+  background-color: #00935d;
+  /* Cor de fundo */
+  /* Espaçamento interno */
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  top: 0px;
+}
+.menu-links {
+  list-style: none;
+  display: flex;
+  /* Deixa os links em linha */
+
+}
+.menu-links li {
+  margin-left: 20px;
+
+}
+.menu-links a {
+  text-decoration: none;
+  /* Remove sublinhado */
+  color: rgb(0, 254, 254);
+  font-size: 30px;
+  transition: 0.3s;
+}
+.menu-links a:hover {
+  color: #ffff00;
+  /* Cor ao passar o mouse */
+}
